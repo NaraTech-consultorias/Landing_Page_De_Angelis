@@ -1,0 +1,161 @@
+Me passa o nome certinho da clínica de fisioterapia: *De Angelis Fisioterapia* , 
+quais atividades  tem: acupuntura, auriculoterapia, florais de Bach, Fisioterapia pélvica, fertilidade, RPG, liberação miofascial,  osteopatia, 
+nome dos profissionais: Hilda, Thailane?, Léo Wilson , 
+número do crefito já tem
+qual seria a missão, visão e valores da clínica
+
+De Angelis Fisioterapia
+Cuidar do corpo. Equilibrar a vida. Transformar caminhos.
+Na De Angelis Fisioterapia, acreditamos que cada pessoa possui uma história, um corpo único e um tempo próprio de transformação.
+
+Nosso trabalho une fisioterapia, terapias integrativas e movimento para oferecer um cuidado individualizado, atento às necessidades de cada paciente.
+
+Em um ambiente acessível, acolhedor e reservado, cada atendimento é realizado com hora marcada e de forma exclusiva, permitindo que você tenha o tempo e a atenção necessários para cuidar de si.
+
+Seu corpo em equilíbrio. Você em movimento.
+Nossa essência
+A borboleta, presente na identidade visual da De Angelis, representa aquilo em que acreditamos: transformação não acontece de uma hora para outra.
+
+Existe um processo, um tempo, cuidado e acompanhamento.
+
+Assim como a borboleta passa por diferentes fases até alcançar sua forma plena, cada pessoa percorre sua própria jornada de recuperação, descoberta e evolução.
+
+Os diferentes tons de azul da identidade representam serenidade, confiança, profundidade e equilíbrio, valores que estão presentes em cada experiência dentro da clínica.
+
+Missão
+Promover saúde, movimento e qualidade de vida por meio de um cuidado individualizado e humanizado.
+Oferecer atendimentos personalizados que integrem conhecimento técnico, terapias complementares e movimento, respeitando as necessidades, os limites e os objetivos de cada paciente.
+
+Na De Angelis, cuidar nãoConstruir uma clínica reconhecida pela qualidade dos seus atendimentos, pelo olhar humano e pela integração entre diferentes abordagens terapêuticas significa apenas tratar uma dor ou uma condição. Significa compreender a pessoa como um todo e ajudá-la a construir uma relação mais saudável com seu próprio corpo.
+
+Visão
+Ser referência em cuidado fisioterapêutico individualizado e integrado.
+Construir uma clínica reconhecida pela qualidade dos seus atendimentos, pelo olhar humano e pela integração entre diferentes abordagens terapêuticas.
+
+Queremos que cada paciente encontre na De Angelis um espaço de confiança, acolhimento, conhecimento e transformação.
+
+Nossos valores
+Individualidade
+Cada corpo tem uma história. Por isso, cada tratamento é pensado de acordo com as necessidades e objetivos de cada pessoa.
+
+Acolhimento
+Criamos um ambiente onde você possa se sentir ouvido, respeitado e seguro durante todo o processo.
+
+Exclusividade
+Atendimentos com hora marcada e atenção individual, proporcionando uma experiência mais tranquila e personalizada.
+
+Integração
+Unimos diferentes conhecimentos e técnicas para olhar para o paciente de maneira ampla, considerando corpo, movimento e equilíbrio.
+
+Respeito ao tempo de cada pessoa
+Entendemos que cada processo de recuperação e transformação acontece em seu próprio ritmo.
+
+Excelência
+Buscamos atualização constante e cuidado técnico em cada atendimento.
+
+Humanização
+Antes de tratar uma condição, cuidamos de uma pessoa.
+
+Autonomia
+Nosso objetivo é ajudar você a compreender seu corpo e participar ativamente do seu processo de cuidado.
+
+Especialidades
+Um olhar integrado para diferentes necessidades
+A De Angelis Fisioterapia reúne diferentes abordagens para oferecer um cuidado personalizado e completo.
+
+Acupuntura
+Técnica terapêutica que busca favorecer o equilíbrio do organismo e auxiliar em diferentes condições.
+
+Auriculoterapia
+Abordagem integrativa que utiliza pontos específicos da orelha como parte do cuidado terapêutico.
+
+Florais de Bach
+Uma abordagem complementar voltada ao equilíbrio emocional e ao bem-estar.
+
+Fisioterapia Pélvica
+Cuidado especializado para a saúde e funcionalidade da região pélvica, respeitando as necessidades individuais de cada paciente.
+
+Fertilidade
+Acompanhamento integrado voltado às pessoas que estão vivenciando sua jornada de fertilidade, com atenção ao corpo, ao bem-estar e às necessidades individuais.
+
+RPG — Reeducação Postural Global
+Abordagem que trabalha postura, equilíbrio corporal e consciência do movimento.
+
+Liberação Miofascial
+Técnica direcionada aos tecidos musculares e fasciais, contribuindo para mobilidade, conforto e qualidade do movimento.
+
+Osteopatia
+Abordagem manual que busca compreender e tratar disfunções do corpo de maneira integrada.
+
+Pilates Clínico Integrado
+Movimento orientado de forma individualizada, respeitando as condições, limitações e objetivos de cada paciente.
+
+Um atendimento pensado para você
+Exclusivo. Individualizado. Acolhedor.
+Na De Angelis, acreditamos que qualidade também está na forma como você é recebido.
+
+Por isso, trabalhamos com horários previamente agendados e atendimento exclusivo, proporcionando um ambiente mais tranquilo, reservado e dedicado integralmente ao paciente.
+
+Nossa estrutura foi pensada para oferecer acessibilidade, conforto e acolhimento, para que o momento do cuidado seja também um momento de bem-estar.
+
+Seu processo de transformação começa com um cuidado individual
+Você não precisa se adaptar a um tratamento genérico.
+
+O cuidado deve se adaptar a você.
+
+Na De Angelis Fisioterapia, cada atendimento começa com escuta, avaliação e compreensão das suas necessidades para construir um caminho terapêutico individualizado.
+
+Permita-se cuidar de você.
+Agende seu atendimento
+
+Sugestão de estrutura da landing page
+Eu montaria a página nesta ordem:
+
+Hero
+
+Logo
+“Cuidar do corpo. Equilibrar a vida. Transformar caminhos.”
+Pequeno texto institucional
+CTA Agende seu atendimento
+A essência De Angelis
+
+Foto da clínica/profissional
+Texto sobre cuidado individualizado
+Conceito da borboleta
+Especialidades
+
+Cards para as 9 especialidades
+Ícones delicados em azul
+Missão, Visão e Valores
+
+Seção mais institucional
+Por que escolher a De Angelis
+
+Atendimento exclusivo
+Hora marcada
+Ambiente acessível
+Cuidado individualizado
+Abordagem integrada
+A experiência De Angelis
+
+Uma seção mais emocional, mostrando o ambiente e o atendimento
+CTA final
+
+“Seu corpo tem seu próprio tempo. Seu cuidado também.”
+Botão Agendar atendimento
+Conceito de slogan
+Pelo símbolo da borboleta, eu destacaria uma destas três opções:
+
+“Cuidar do corpo. Equilibrar a vida. Transformar caminhos.”
+→ mais institucional e sofisticado.
+
+“Seu corpo em equilíbrio. Você em movimento.”
+→ mais direto e conectado à fisioterapia.
+
+“Todo processo de transformação começa com um cuidado.”
+→ mais emocional e conectado ao conceito da borboleta.
+
+Minha escolha para a De Angelis:
+
+Todo processo de transformação começa com um cuidado.
+É uma frase que conversa muito bem com a borboleta da logo, com fisioterapia, fertilidade, reabilitação e terapias integrativas sem limitar a clínica a uma única especialidade.

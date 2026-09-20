@@ -1,0 +1,167 @@
+{
+  "theme": "light",
+  "brand_name": "De Angelis Fisioterapia",
+  "slogan": "Cuidar do corpo. Equilibrar a vida. Transformar caminhos.",
+  "closing_phrase": "Todo processo de transformação começa com um cuidado.",
+  "archetype": "Cuidado, Transformação, Equilíbrio e Acolhimento Humanizado",
+  "emotional_tone": "Claro, acolhedor, seguro, próximo, individualizado. Profissionalismo que acolhe, comunicação que aproxima.",
+  "colors": {
+    "palette_official_order": [
+      { "name": "Creme / Off-white (Base clara)", "hex": "#F2EDE6" },
+      { "name": "Azul Claro / Céu", "hex": "#59B8E9" },
+      { "name": "Azul Royal", "hex": "#153D94" },
+      { "name": "Azul Acinzentado", "hex": "#406489" },
+      { "name": "Bege / Areia", "hex": "#C7B49D" },
+      { "name": "Dourado / Areia Escuro", "hex": "#CCB17C" }
+    ],
+    "background": {
+      "base": "#F2EDE6",
+      "surface": "#FFFFFF",
+      "surface_alt": "#F8F5F0",
+      "surface_sand": "#EFE8DC",
+      "surface_blue_light": "#EDF7FC",
+      "surface_dark": "#121A37"
+    },
+    "text": {
+      "primary": "#121A37",
+      "secondary": "#406489",
+      "muted": "#6E7A8A",
+      "light": "#F2EDE6",
+      "white": "#FFFFFF"
+    },
+    "brand": {
+      "primary": "#153D94",
+      "primary_hover": "#0F2E70",
+      "sky": "#59B8E9",
+      "slate_blue": "#406489",
+      "sand": "#C7B49D",
+      "gold_sand": "#CCB17C",
+      "navy_dark": "#121A37"
+    }
+  },
+  "typography": {
+    "heading_font": "Cormorant SC",
+    "body_font": "Montserrat",
+    "accent_font": "Goudy",
+    "scale": {
+      "h1": "font-serif text-4xl sm:text-5xl lg:text-6xl tracking-wide uppercase font-semibold text-[#121A37]",
+      "h2": "font-serif text-3xl sm:text-4xl lg:text-5xl tracking-wide uppercase font-semibold text-[#121A37]",
+      "h3": "font-serif text-2xl sm:text-3xl tracking-wide uppercase font-medium text-[#121A37]",
+      "h4": "font-serif text-xl sm:text-2xl tracking-wide uppercase font-medium text-[#121A37]",
+      "body": "font-sans text-base sm:text-lg leading-relaxed text-[#406489]",
+      "body_sm": "font-sans text-sm sm:text-base leading-relaxed text-[#406489]",
+      "overline": "font-sans uppercase text-xs sm:text-sm tracking-[0.25em] font-semibold text-[#153D94]",
+      "button": "font-sans uppercase tracking-[0.15em] text-sm font-semibold"
+    }
+  },
+  "spacing_and_layout": {
+    "general": "Mobile-first priority. Generous padding (py-16 to py-24 for sections). Clean negative space to evoke tranquility and breathing room.",
+    "border_radius": "rounded-2xl to rounded-3xl for cards to create a soft, safe, organic feel. rounded-full for pills and CTAs.",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full bg-[#153D94] text-white hover:bg-[#0F2E70] transition-all duration-300 px-8 py-4 font-semibold tracking-wider text-sm sm:text-base shadow-lg hover:shadow-xl hover:-translate-y-0.5 inline-flex items-center justify-center gap-3",
+      "secondary": "rounded-full bg-white/90 text-[#153D94] border border-[#153D94]/20 hover:bg-white hover:border-[#153D94] transition-all duration-300 px-7 py-3.5 font-medium text-sm sm:text-base shadow-sm inline-flex items-center justify-center gap-2",
+      "floating_whatsapp": "rounded-full bg-[#153D94] text-white hover:bg-[#0F2E70] shadow-[0_8px_30px_rgba(21,61,148,0.35)] hover:scale-105 transition-all duration-300 flex items-center justify-center"
+    },
+    "cards": {
+      "base": "p-6 sm:p-8 rounded-2xl bg-white border border-[#C7B49D]/30 shadow-sm hover:shadow-md transition-all duration-300",
+      "highlight": "p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-white to-[#F2EDE6] border border-[#59B8E9]/30 shadow-sm hover:shadow-md transition-all duration-300",
+      "accent": "p-6 sm:p-8 rounded-2xl bg-[#121A37] text-white border border-[#406489]/30 shadow-lg"
+    }
+  },
+  "sections_instructions": [
+    {
+      "name": "Navbar",
+      "layout": "Sticky top-0 z-40 bg-[#F2EDE6]/90 backdrop-blur-md border-b border-[#C7B49D]/30 py-3.5 px-4 sm:px-8 flex items-center justify-between",
+      "data_testid": "navbar-header"
+    },
+    {
+      "name": "Hero Section",
+      "layout": "Min-h-[90vh] flex items-center justify-center text-center py-20 px-4 bg-[#F2EDE6] relative overflow-hidden",
+      "content": "Official Logo + Butterfly, Headline 'Cuidar do corpo. Equilibrar a vida. Transformar caminhos.', Institutional Subtitle, Primary WhatsApp CTA.",
+      "data_testid": "hero-section"
+    },
+    {
+      "name": "Apresentação da Marca",
+      "layout": "Grid 2 colunas / centrado, py-20 bg-white px-4",
+      "content": "Cuidado individualizado, escuta atenta, respeito ao tempo de cada pessoa, ambiente acolhedor, reservado e atendimento com hora marcada.",
+      "data_testid": "apresentacao-section"
+    },
+    {
+      "name": "Conceito da Borboleta",
+      "layout": "Seção especial com a borboleta oficial em destaque, py-20 bg-gradient-to-b from-white to-[#F2EDE6] px-4",
+      "content": "Metáfora da transformação: assim como a borboleta passa por fases com tempo e cuidado, cada paciente tem sua jornada de recuperação.",
+      "data_testid": "conceito-borboleta-section"
+    },
+    {
+      "name": "Especialidades",
+      "layout": "Grid 3x3 responsivo (1 col mobile, 2 tablet, 3 desktop), py-20 bg-[#F2EDE6] px-4",
+      "content": "9 cards para Acupuntura, Auriculoterapia, Florais de Bach, Fisioterapia Pélvica, Fertilidade, RPG, Liberação Miofascial, Osteopatia, Pilates Clínico Integrado.",
+      "data_testid": "especialidades-section"
+    },
+    {
+      "name": "Missão, Visão e Valores",
+      "layout": "py-20 bg-white px-4 com blocos para Missão e Visão + grid com 8 Valores da marca",
+      "content": "Textos literais do Brand Book e cards individuais dos 8 valores.",
+      "data_testid": "missao-visao-valores-section"
+    },
+    {
+      "name": "Equipe",
+      "layout": "Grid com 3 cards de profissionais, py-20 bg-[#F2EDE6] px-4",
+      "content": "Hilda, Thailane, Léo Wilson com fotos placeholders elegantes, especialidades e indicação 'CREFITO: [aguardando envio do cliente]'.",
+      "data_testid": "equipe-section"
+    },
+    {
+      "name": "Por Que Escolher a De Angelis",
+      "layout": "Grid 4 cards com diferenciais exclusivos, py-20 bg-white px-4",
+      "content": "Atendimento exclusivo com hora marcada, Ambiente acessível e reservado, Cuidado individualizado, Abordagem integrada.",
+      "data_testid": "diferenciais-section"
+    },
+    {
+      "name": "CTA Final & Contato",
+      "layout": "Seção nobre em Azul Profundo (#121A37) com acentos dourados e azuis claros, py-20 px-4 text-center",
+      "content": "Frase 'Todo processo de transformação começa com um cuidado.', Botão CTA WhatsApp, endereço e informações de contato com placeholders.",
+      "data_testid": "cta-final-section"
+    },
+    {
+      "name": "Footer",
+      "layout": "py-12 bg-[#0C1226] text-[#C7B49D] px-4 border-t border-[#406489]/20 text-center text-sm",
+      "content": "Logo De Angelis, Instagram, WhatsApp, Horários e Copyright.",
+      "data_testid": "footer-section"
+    },
+    {
+      "name": "Botão Flutuante WhatsApp",
+      "layout": "Fixo no canto inferior direito (bottom-6 right-6 z-50)",
+      "data_testid": "floating-whatsapp-cta"
+    }
+  ],
+  "icons": {
+    "library": "lucide-react",
+    "stroke_width": 1.5,
+    "instructions": "All Lucide icons must have strokeWidth={1.5} to maintain the delicate and refined aesthetic of the Brand Book."
+  },
+  "testing": {
+    "required_test_ids": [
+      "navbar-header",
+      "hero-whatsapp-cta",
+      "apresentacao-whatsapp-cta",
+      "especialidades-grid",
+      "specialty-card-acupuntura",
+      "specialty-card-auriculoterapia",
+      "specialty-card-florais",
+      "specialty-card-pelvica",
+      "specialty-card-fertilidade",
+      "specialty-card-rpg",
+      "specialty-card-miofascial",
+      "specialty-card-osteopatia",
+      "specialty-card-pilates",
+      "team-card-hilda",
+      "team-card-thailane",
+      "team-card-leo-wilson",
+      "final-whatsapp-cta",
+      "floating-whatsapp-cta"
+    ]
+  }
+}

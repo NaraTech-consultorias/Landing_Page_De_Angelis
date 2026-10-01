@@ -32,19 +32,18 @@ export const Hero = () => {
         {/* Main Official Slogan Headline */}
         <h1
           data-testid="hero-headline"
-          className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-wide uppercase text-brand-navy leading-[1.1] mb-6"
+          className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-6"
         >
-          Cuidar do corpo. <br className="hidden sm:inline" />
-          <span className="text-brand-royal">Equilibrar a vida.</span> <br />
-          Transformar caminhos.
+          Seu corpo em equilíbrio. <br />
+          <span className="text-brand-royal">Você em movimento.</span>
         </h1>
 
         {/* Institutional Subtitle */}
         <p
           data-testid="hero-subtitle"
-          className="text-base sm:text-lg md:text-xl text-brand-slate max-w-3xl mx-auto leading-relaxed font-normal mb-10"
+          className="text-base sm:text-lg md:text-xl text-brand-slate max-w-2xl mx-auto leading-relaxed font-normal mb-10"
         >
-          Na <strong className="font-semibold text-brand-navy">De Angelis Fisioterapia</strong>, acreditamos que cada pessoa possui uma história, um corpo único e um tempo próprio de transformação. Unimos fisioterapia, terapias integrativas e movimento para oferecer um cuidado individualizado, humanizado e atento às necessidades de cada paciente.
+          Cuidado individualizado, integrando fisioterapia, terapias complementares e movimento em um ambiente acolhedor, reservado e exclusivo.
         </p>
 
         {/* Primary and Secondary CTA Buttons */}

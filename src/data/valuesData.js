@@ -1,18 +1,24 @@
 /**
  * Missão, Visão e os 8 Valores Oficiais da De Angelis Fisioterapia
- * Extraídos literalmente do Brand Book
+ * Extraídos e refinados conforme "descrição Deangelis.docx" e Brand Book
  */
+
+export const WHOLE_CARE_SECTION = {
+  title: "Um cuidado que olha para você por inteiro",
+  p1: "Na De Angelis, cuidar não significa apenas tratar uma dor ou uma condição.",
+  p2: "Significa compreender a pessoa como um todo e construir, junto com ela, um caminho de cuidado que respeite seu corpo, seus limites, seu momento e seus objetivos."
+};
 
 export const MISSION_VISION = {
   mission: {
-    title: "Missão",
+    title: "Nossa Missão",
     short: "Promover saúde, movimento e qualidade de vida por meio de um cuidado individualizado e humanizado.",
-    full: "Oferecer atendimentos personalizados que integrem conhecimento técnico, terapias complementares e movimento, respeitando as necessidades, os limites e os objetivos de cada paciente. Na De Angelis, cuidar não significa apenas tratar uma dor ou uma condição. Significa compreender a pessoa como um todo e ajudá-la a construir uma relação mais saudável com seu próprio corpo."
+    full: "Integrar conhecimento técnico, terapias complementares e movimento para oferecer um tratamento personalizado, respeitando os limites, o momento e os objetivos de cada paciente."
   },
   vision: {
-    title: "Visão",
+    title: "Nossa Visão",
     short: "Ser referência em cuidado fisioterapêutico individualizado e integrado.",
-    full: "Construir uma clínica reconhecida pela qualidade dos seus atendimentos, pelo olhar humano e pela integração entre diferentes abordagens terapêuticas. Queremos que cada paciente encontre na De Angelis um espaço de confiança, acolhimento, conhecimento e transformação."
+    full: "Ser uma clínica reconhecida pela excelência técnica dos seus atendimentos, pelo olhar humano e pela integração harmônica entre diferentes abordagens terapêuticas."
   }
 };
 
@@ -21,48 +27,48 @@ export const BRAND_VALUES = [
     id: "individualidade",
     number: "01",
     title: "Individualidade",
-    description: "Cada corpo tem uma história. Por isso, cada tratamento é pensado de acordo com as necessidades e objetivos de cada pessoa."
+    description: "Cada corpo tem uma história. Cada tratamento é pensado de acordo com suas necessidades e objetivos."
   },
   {
     id: "acolhimento",
     number: "02",
     title: "Acolhimento",
-    description: "Criamos um ambiente onde você possa se sentir ouvido, respeitado e seguro durante todo o processo."
+    description: "Um espaço onde você possa se sentir ouvido, respeitado e seguro durante todo o processo."
   },
   {
     id: "exclusividade",
     number: "03",
     title: "Exclusividade",
-    description: "Atendimentos com hora marcada e atenção individual, proporcionando uma experiência mais tranquila e personalizada."
+    description: "Atendimento individual e com hora marcada, proporcionando uma experiência tranquila e personalizada."
   },
   {
     id: "integracao",
     number: "04",
     title: "Integração",
-    description: "Unimos diferentes conhecimentos e técnicas para olhar para o paciente de maneira ampla, considerando corpo, movimento e equilíbrio."
+    description: "Diferentes conhecimentos e técnicas para compreender e cuidar do paciente de maneira ampla."
   },
   {
     id: "respeito-tempo",
     number: "05",
-    title: "Respeito ao tempo",
-    description: "Entendemos que cada processo de recuperação e transformação acontece em seu próprio ritmo, sem pressa e com consistência."
+    title: "Respeito ao seu tempo",
+    description: "Cada processo de recuperação e transformação acontece em seu próprio ritmo."
   },
   {
     id: "excelencia",
     number: "06",
     title: "Excelência",
-    description: "Buscamos atualização constante, rigor técnico e excelência em cada etapa do atendimento terapêutico."
+    description: "Atualização constante e cuidado técnico rigoroso em cada atendimento."
   },
   {
     id: "humanizacao",
     number: "07",
     title: "Humanização",
-    description: "Antes de tratar uma condição clínica, cuidamos com empatia e respeito de um ser humano."
+    description: "Antes de tratar uma condição, cuidamos de uma pessoa."
   },
   {
     id: "autonomia",
     number: "08",
     title: "Autonomia",
-    description: "Nosso objetivo é ajudar você a compreender seu corpo e participar ativamente do seu processo de cuidado."
+    description: "Ajudamos você a compreender seu corpo e participar ativamente do seu processo de cuidado."
   }
 ];

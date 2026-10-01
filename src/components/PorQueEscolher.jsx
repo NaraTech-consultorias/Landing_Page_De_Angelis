@@ -38,15 +38,15 @@ export const PorQueEscolher = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-offwhite border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-4 shadow-sm">
             <Sparkles className="w-3.5 h-3.5" strokeWidth={1.5} />
-            <span>Por Que Escolher a De Angelis</span>
+            <span>Um Atendimento Pensado Para Você</span>
           </div>
 
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-4">
-            A Experiência De Angelis
+            Exclusivo. Individualizado. Acolhedor.
           </h2>
 
           <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-            Acreditamos que a qualidade de um tratamento também está na forma como você é recebido e respeitado em sua singularidade.
+            Qualidade também está na forma como você é recebido. Por isso, trabalhamos com horários previamente agendados e atendimento exclusivo, proporcionando um ambiente tranquilo, reservado e dedicado integralmente ao paciente.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export const PorQueEscolher = () => {
               O cuidado deve se adaptar a você."
             </h3>
             <p className="text-sm text-brand-slate max-w-2xl mx-auto">
-              Permita-se viver uma experiência terapêutica em um espaço onde você é o centro de todo o processo.
+              Nossa estrutura foi pensada para oferecer acessibilidade, conforto e acolhimento, tornando o momento do cuidado também um momento de bem-estar.
             </p>
             <div className="pt-2">
               <a

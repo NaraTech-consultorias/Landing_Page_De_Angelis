@@ -36,8 +36,8 @@ export const CtaFinal = () => {
           {CONTACT_INFO.closingPhrase}
         </h2>
 
-        <p className="text-base sm:text-lg md:text-xl text-brand-offwhite/80 max-w-2xl mx-auto leading-relaxed mb-10 font-light">
-          Dê o primeiro passo para o seu bem-estar, equilíbrio e recuperação. Estamos prontos para acolher você com exclusividade, respeito e hora marcada.
+        <p className="text-base sm:text-lg md:text-xl text-brand-offwhite/85 max-w-3xl mx-auto leading-relaxed mb-10 font-light">
+          Na <strong className="text-white font-medium">De Angelis Fisioterapia</strong>, cada atendimento começa com escuta, avaliação e compreensão das suas necessidades, para construir um caminho terapêutico individualizado. <strong className="text-brand-sky font-normal">Permita-se cuidar de você.</strong>
         </p>
 
         {/* Big Primary WhatsApp Button */}

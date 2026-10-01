@@ -42,9 +42,9 @@ export const Hero = () => {
         {/* Institutional Subtitle */}
         <p
           data-testid="hero-subtitle"
-          className="text-base sm:text-lg md:text-xl text-brand-slate max-w-2xl mx-auto leading-relaxed font-normal mb-10"
+          className="text-base sm:text-lg md:text-xl text-brand-slate max-w-3xl mx-auto leading-relaxed font-normal mb-10"
         >
-          Na <strong className="font-semibold text-brand-navy">De Angelis Fisioterapia</strong>, acreditamos que cada pessoa possui uma história, um corpo único e um tempo próprio de transformação. Unimos fisioterapia, terapias complementares e movimento em um ambiente acolhedor, reservado e com hora marcada.
+          Na <strong className="font-semibold text-brand-navy">De Angelis Fisioterapia</strong>, acreditamos que cada pessoa possui uma história, um corpo único e um tempo próprio de transformação. Unimos fisioterapia, terapias integrativas e movimento para oferecer um cuidado individualizado, humanizado e atento às necessidades de cada paciente.
         </p>
 
         {/* Primary and Secondary CTA Buttons */}

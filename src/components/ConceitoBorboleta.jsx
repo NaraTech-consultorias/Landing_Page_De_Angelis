@@ -23,7 +23,7 @@ export const ConceitoBorboleta = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-            A borboleta, símbolo central da identidade visual da De Angelis, representa aquilo em que acreditamos: <strong>a transformação não acontece de uma hora para outra</strong>.
+            A borboleta, símbolo da De Angelis, representa <strong>transformação, processo e evolução</strong>.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export const ConceitoBorboleta = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base text-brand-slate leading-relaxed">
-                Assim como a borboleta passa por diferentes fases até alcançar sua forma plena, cada pessoa percorre sua própria jornada de recuperação, descoberta, reabilitação e evolução corporal.
+                Assim como a borboleta passa por diferentes fases até alcançar sua forma plena, cada pessoa percorre sua própria jornada de recuperação, descoberta e transformação.
               </p>
             </div>
 
@@ -82,7 +82,7 @@ export const ConceitoBorboleta = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base text-brand-slate leading-relaxed">
-                Os diferentes tons de azul da nossa paleta oficial traduzem <strong>serenidade, clareza, profundidade e equilíbrio</strong> — valores presentes em cada atendimento realizado na clínica.
+                Os diferentes tons de azul da identidade representam <strong>serenidade, confiança, profundidade e equilíbrio</strong> — valores presentes em cada experiência dentro da clínica.
               </p>
             </div>
           </div>

@@ -52,20 +52,20 @@ export const Apresentacao = () => {
             </div>
 
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight">
-              Um cuidado pensado <br />
-              <span className="text-brand-royal">para o seu tempo e o seu corpo</span>
+              Um cuidado que olha <br />
+              <span className="text-brand-royal">para você por inteiro</span>
             </h2>
 
             <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-              A <strong className="font-semibold text-brand-navy">De Angelis Fisioterapia</strong> nasce com a proposta de oferecer um cuidado individualizado, integrando fisioterapia, movimento e terapias complementares.
+              Na <strong className="font-semibold text-brand-navy">De Angelis</strong>, cuidar não significa apenas tratar uma dor ou uma condição. Significa compreender a pessoa como um todo e construir, junto com ela, um caminho de cuidado que respeite seu corpo, seus limites, seu momento e seus objetivos.
             </p>
 
             <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-              Cada pessoa possui uma história, um corpo e um tempo próprio. Por isso, acreditamos em um atendimento que começa pela escuta atenta, respeita a individualidade e considera diferentes possibilidades terapêuticas para construir um caminho de cuidado eficaz e acolhedor.
+              Cada pessoa possui uma história, um corpo e um tempo próprio. Por isso, acreditamos em um atendimento que começa pela escuta atenta, respeita a individualidade e considera diferentes possibilidades terapêuticas para construir um caminho de cuidado acolhedor.
             </p>
 
             <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-              Em um ambiente acolhedor, reservado e acessível, cada atendimento é realizado com hora marcada de forma exclusiva, pensado para oferecer atenção integral, segurança e qualidade ao longo de todo o processo.
+              Em um ambiente acolhedor, reservado e acessível, os atendimentos são realizados com hora marcada e de forma exclusiva, proporcionando o tempo e a atenção necessários para que você cuide de si.
             </p>
 
             {/* Feature points */}

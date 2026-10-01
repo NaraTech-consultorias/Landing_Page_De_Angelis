@@ -13,13 +13,13 @@ export const Hero = () => {
       <div className="absolute top-2/3 right-10 w-[350px] h-[350px] bg-brand-sand/20 rounded-full blur-2xl pointer-events-none -z-0" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
-        {/* Butterfly Symbol and Brand Header */}
+        {/* Official Brand Logo */}
         <div className="mb-6 flex flex-col items-center">
-          <div className="relative mb-3">
+          <div className="relative mb-4">
             <img
-              src="/assets/butterfly.png"
-              alt="Símbolo Oficial da Borboleta — De Angelis Fisioterapia"
-              className="w-24 h-24 sm:w-28 sm:h-28 object-contain animate-float-slow drop-shadow-md"
+              src="/assets/logo.png"
+              alt="Logo Oficial De Angelis Fisioterapia"
+              className="h-28 sm:h-36 md:h-44 w-auto object-contain animate-float-slow drop-shadow-md"
             />
           </div>
           

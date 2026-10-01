@@ -18,9 +18,9 @@ export const CtaFinal = () => {
         {/* Butterfly Icon & Header Tag */}
         <div className="flex flex-col items-center mb-6">
           <img
-            src="/assets/butterfly.png"
-            alt="Símbolo Borboleta De Angelis"
-            className="w-16 h-16 sm:w-20 sm:h-20 object-contain animate-float-slow mb-4 drop-shadow-lg brightness-110"
+            src="/assets/logo-light.png"
+            alt="Logo De Angelis Fisioterapia"
+            className="h-16 sm:h-20 w-auto object-contain animate-float-slow mb-4 drop-shadow-lg"
           />
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-brand-sky/30 text-brand-sky text-xs font-semibold uppercase tracking-extra-wide">
             <Sparkles className="w-3.5 h-3.5" strokeWidth={1.5} />

@@ -38,21 +38,13 @@ export const Navbar = () => {
         <a
           href="#"
           data-testid="navbar-brand-link"
-          className="flex items-center gap-3 group focus:outline-none"
+          className="flex items-center group focus:outline-none py-1"
         >
           <img
-            src="/assets/butterfly.png"
-            alt="Símbolo Borboleta De Angelis"
-            className="w-9 h-9 sm:w-10 sm:h-10 object-contain transition-transform duration-300 group-hover:scale-105"
+            src="/assets/logo.png"
+            alt="De Angelis Fisioterapia"
+            className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
-          <div className="flex flex-col">
-            <span className="font-heading text-lg sm:text-xl font-semibold tracking-wider text-brand-navy uppercase leading-tight">
-              De Angelis
-            </span>
-            <span className="font-sans text-[9px] sm:text-[10px] tracking-super-wide text-brand-slate uppercase font-medium">
-              Fisioterapia
-            </span>
-          </div>
         </a>
 
         {/* Desktop Navigation Links */}

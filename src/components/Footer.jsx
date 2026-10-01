@@ -15,21 +15,11 @@ export const Footer = () => {
           
           {/* Brand and Slogan */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">
-            <div className="flex items-center gap-3">
-              <img
-                src="/assets/butterfly.png"
-                alt="Logo De Angelis Fisioterapia"
-                className="w-8 h-8 object-contain brightness-110"
-              />
-              <div>
-                <span className="font-heading text-lg sm:text-xl font-semibold tracking-wider text-white uppercase block leading-tight">
-                  De Angelis
-                </span>
-                <span className="font-sans text-[9px] tracking-super-wide text-brand-sky uppercase font-medium">
-                  Fisioterapia
-                </span>
-              </div>
-            </div>
+            <img
+              src="/assets/logo-light.png"
+              alt="Logo De Angelis Fisioterapia"
+              className="h-10 sm:h-12 w-auto object-contain"
+            />
             <p className="text-xs text-brand-offwhite/60 max-w-sm mt-1">
               {CONTACT_INFO.slogan}
             </p>

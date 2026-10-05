@@ -17,9 +17,9 @@ export const Navbar = () => {
   const navLinks = [
     { name: 'Tratamentos', href: '#para-quem' },
     { name: 'Especialidades', href: '#especialidades' },
+    { name: 'Nosso Espaço', href: '#espaco' },
     { name: 'Equipe', href: '#equipe' },
-    { name: 'Diferenciais', href: '#diferenciais' },
-    { name: 'Sobre Nós', href: '#sobre' },
+    { name: 'Dúvidas', href: '#faq' },
     { name: 'Onde Estamos', href: '#localizacao' },
     { name: 'Contato', href: '#contato' },
   ];

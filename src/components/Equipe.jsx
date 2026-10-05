@@ -20,12 +20,11 @@ export const Equipe = () => {
           </div>
 
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-4">
-            Profissionais Dedicados <br />
-            <span className="text-brand-royal">ao Seu Cuidado</span>
+            Profissionais Especializados
           </h2>
 
           <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-            Nossa equipe une formação técnica rigorosa, constante atualização e um olhar humanizado para acompanhar cada etapa do seu processo terapêutico.
+            Formação técnica de excelência, constante atualização e acolhimento em cada etapa do seu tratamento.
           </p>
         </div>
 
@@ -35,16 +34,26 @@ export const Equipe = () => {
             <div
               key={member.id}
               data-testid={member.testId}
-              className="rounded-3xl bg-white p-8 border border-brand-sand/30 shadow-sm hover:shadow-brand-card hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
+              className={`rounded-3xl bg-white p-8 border shadow-sm hover:shadow-brand-card hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between ${
+                member.isLead ? 'border-brand-royal/30 ring-1 ring-brand-royal/10' : 'border-brand-sand/30'
+              }`}
             >
               <div>
-                {/* Professional Photo Placeholder Avatar */}
+                {/* Professional Photo Container */}
                 <div className="relative mb-6 flex justify-center">
-                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-brand-offwhite via-brand-sky/20 to-brand-royal/20 p-1.5 border border-brand-sand/40 flex items-center justify-center shadow-inner">
-                    <div className="w-full h-full rounded-full bg-brand-offwhite flex flex-col items-center justify-center text-brand-royal">
-                      <User className="w-12 h-12 text-brand-royal/60 mb-1" strokeWidth={1.5} />
-                      <span className="text-[10px] uppercase tracking-widest text-brand-slate/70 font-semibold">[Foto em breve]</span>
-                    </div>
+                  <div className="w-36 h-36 rounded-full bg-gradient-to-br from-brand-offwhite via-brand-sky/30 to-brand-royal/30 p-1.5 border border-brand-sand/40 flex items-center justify-center shadow-md overflow-hidden">
+                    {member.photo ? (
+                      <img
+                        src={member.photo}
+                        alt={`Foto de ${member.name}`}
+                        className="w-full h-full object-cover object-top rounded-full"
+                      />
+                    ) : (
+                      <div className="w-full h-full rounded-full bg-brand-offwhite flex flex-col items-center justify-center text-brand-royal">
+                        <User className="w-12 h-12 text-brand-royal/60 mb-1" strokeWidth={1.5} />
+                        <span className="text-[10px] uppercase tracking-widest text-brand-slate/70 font-semibold">[Foto em breve]</span>
+                      </div>
+                    )}
                   </div>
                 </div>
 
@@ -81,7 +90,7 @@ export const Equipe = () => {
               {/* Direct Appointment CTA */}
               <div className="pt-6 border-t border-brand-sand/20">
                 <a
-                  href={getWhatsAppLink(`Olá! Gostaria de agendar um atendimento com ${member.name}.`)}
+                  href={getWhatsAppLink(`Olá! Gostaria de agendar uma avaliação com ${member.name}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
                   data-testid={`cta-team-${member.id}`}

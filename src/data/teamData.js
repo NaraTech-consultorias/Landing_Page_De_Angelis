@@ -8,10 +8,10 @@ export const TEAM_MEMBERS = [
     id: "thailane",
     testId: "team-card-thailane",
     name: "Dra. Tailane de Lima Pereira",
-    role: "Fisioterapeuta & Responsável Técnica",
+    role: "Fisioterapeuta",
     crefito: "289745-F",
-    specialties: "Acupuntura, Auriculoterapia, Florais de Bach & Pilates Clínico",
-    bio: "Especialista em fisioterapia integrativa e movimento orientado, proporcionando alívio de dores e equilíbrio funcional para cada paciente.",
+    specialties: "Pilates Clínico, Liberação Miofascial, RPG & Fisioterapia",
+    bio: "Especialista em reabilitação funcional, Pilates Clínico e alívio de dores musculares, promovendo mobilidade, postura e bem-estar para cada paciente.",
     photo: "/assets/team/tailane.webp",
     isLead: true
   },

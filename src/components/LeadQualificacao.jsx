@@ -46,7 +46,7 @@ export const LeadQualificacao = () => {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-4 shadow-sm">
             <Activity className="w-3.5 h-3.5" strokeWidth={1.5} />
-            <span>Como Podemos Ajudar Você</span>
+            <span>Como Podemos Ajudar Você?</span>
           </div>
 
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-4">
@@ -54,7 +54,7 @@ export const LeadQualificacao = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-            Identifique o seu objetivo e inicie seu atendimento com um plano terapêutico exclusivo.
+            Conte para nós o que você está sentindo. Cuidamos de você com uma abordagem acolhedora, personalizada e sem pressa.
           </p>
         </div>
 

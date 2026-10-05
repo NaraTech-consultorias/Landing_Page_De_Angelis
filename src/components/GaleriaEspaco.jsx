@@ -7,40 +7,40 @@ export const GaleriaEspaco = () => {
 
   const photos = [
     {
-      src: '/assets/clinic/IMG_5360.webp',
-      alt: 'Estúdio de Pilates Clínico e Reabilitação Funcional',
-      title: 'Estúdio de Pilates Clínico',
-      category: 'Movimento & Postura'
-    },
-    {
       src: '/assets/clinic/IMG_2595.webp',
-      alt: 'Consultório de Fisioterapia e Maca de Atendimento',
-      title: 'Consultório de Fisioterapia',
-      category: 'Avaliação & Terapia Manual'
-    },
-    {
-      src: '/assets/clinic/IMG_3782.webp',
-      alt: 'Sala de Fisioterapia Pélvica e Terapias Integrativas',
-      title: 'Ambiente Privativo',
-      category: 'Saúde Pélvica & Fertilidade'
+      alt: 'Recepção acolhedora e sala de espera confortável',
+      title: 'Recepção & Sala de Espera',
+      category: 'Acolhimento & Conforto'
     },
     {
       src: '/assets/clinic/IMG_7936.webp',
-      alt: 'Recepção Acolhedora De Angelis Fisioterapia',
-      title: 'Recepção & Acolhimento',
-      category: 'Estrutura Exclusiva'
-    },
-    {
-      src: '/assets/clinic/IMG_7937.webp',
-      alt: 'Equipamentos Modernos e Maca de Reabilitação',
-      title: 'Espaço de Terapias Integradas',
-      category: 'Acupuntura & RPG'
+      alt: 'Estúdio equipado para Pilates Clínico e reabilitação postural',
+      title: 'Estúdio de Pilates Clínico',
+      category: 'Movimento & Reeducação'
     },
     {
       src: '/assets/clinic/IMG_7941.webp',
-      alt: 'Consultório Climatizado e Silencioso',
-      title: 'Conforto & Acessibilidade',
-      category: 'Atendimento Individual'
+      alt: 'Consultório privativo para avaliação e fisioterapia clínica',
+      title: 'Consultório de Fisioterapia',
+      category: 'Avaliação & Cuidado Individual'
+    },
+    {
+      src: '/assets/clinic/IMG_3782.webp',
+      alt: 'Acesso aos consultórios privativos e climatizados',
+      title: 'Ambiente Reservado & Silencioso',
+      category: 'Privacidade & Conforto'
+    },
+    {
+      src: '/assets/clinic/IMG_7937.webp',
+      alt: 'Ambiente preparado para terapias integrativas e liberação miofascial',
+      title: 'Espaço de Terapias Integradas',
+      category: 'Acupuntura & Liberação'
+    },
+    {
+      src: '/assets/clinic/IMG_7950.webp',
+      alt: 'Estrutura completa, moderna e climatizada para seu bem-estar',
+      title: 'Infraestrutura Moderna',
+      category: 'Estrutura Exclusiva'
     }
   ];
 
@@ -105,7 +105,7 @@ export const GaleriaEspaco = () => {
               Venha conhecer nosso espaço de perto
             </h4>
             <p className="text-xs sm:text-sm text-brand-slate mt-1">
-              Atendimento exclusivo com hora marcada, sem espera e em ambiente privativo.
+              Atendimento exclusivo com hora marcada em ambiente privativo e acolhedor.
             </p>
           </div>
 

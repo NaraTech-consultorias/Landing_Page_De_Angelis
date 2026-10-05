@@ -1,15 +1,15 @@
 /**
  * Equipe Profissional — De Angelis Fisioterapia
- * [Foto real da Dra. Tailane integrada; CREFITO aguardando envio do cliente]
+ * CREFITOs oficiais atualizados
  */
 
 export const TEAM_MEMBERS = [
   {
     id: "thailane",
     testId: "team-card-thailane",
-    name: "Dra. Tailane",
+    name: "Dra. Tailane de Lima Pereira",
     role: "Fisioterapeuta & Responsável Técnica",
-    crefito: "[Aguardando envio do cliente]",
+    crefito: "289745-F",
     specialties: "Acupuntura, Auriculoterapia, Florais de Bach & Pilates Clínico",
     bio: "Especialista em fisioterapia integrativa e movimento orientado, proporcionando alívio de dores e equilíbrio funcional para cada paciente.",
     photo: "/assets/team/tailane.webp",
@@ -18,9 +18,9 @@ export const TEAM_MEMBERS = [
   {
     id: "hilda",
     testId: "team-card-hilda",
-    name: "Dra. Hilda",
+    name: "Dra. Hilda Maria Marques Pinheiro",
     role: "Fisioterapeuta Especialista",
-    crefito: "[Aguardando envio do cliente]",
+    crefito: "107891-F",
     specialties: "Fisioterapia Pélvica, Saúde da Mulher & Fertilidade",
     bio: "Dedicada ao cuidado integral e humanizado, com foco na saúde pélvica, gestação, fertilidade e fortalecimento funcional.",
     avatarPlaceholder: "H"

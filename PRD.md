@@ -58,7 +58,13 @@
 
 ### 5. Lista de Pendências e Placeholders Identificáveis
 
-1. **CREFITO:** Inserido no código como `[Aguardando envio do cliente]` para Hilda, Thailane e Léo Wilson.
-2. **Fotos da Equipe & Ambiente:** Utilizados placeholders refinados com avatar/silhueta e indicação no código.
-3. **Telefone/WhatsApp da Clínica:** Número padrão configurável no arquivo de constantes (`src/data/contactData.js`).
-4. **Endereço e Instagram:** Marcados claramente em `src/data/contactData.js` para fácil atualização.
+1. **CREFITO:** 
+   - Dra. Hilda Maria Marques Pinheiro: `107891-F` (Atualizado)
+   - Dra. Tailane de Lima Pereira: `289745-F` (Atualizado)
+   - Dr. Léo Wilson: `[Aguardando envio do cliente]`
+2. **Fotos da Equipe & Ambiente:** 
+   - Dra. Tailane: Foto real profissional integrada (`public/assets/team/tailane.webp`).
+   - Ambiente da clínica: 6 fotos reais integradas na galeria (`public/assets/clinic/`).
+   - Demais profissionais: Aguardando envio de fotos.
+3. **Telefone/WhatsApp da Clínica:** Número padrão configurável em `src/data/contactData.js`.
+4. **Endereço e Instagram:** Configuráveis em `src/data/contactData.js`.

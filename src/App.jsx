@@ -1,12 +1,14 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { LeadQualificacao } from './components/LeadQualificacao';
 import { Apresentacao } from './components/Apresentacao';
-import { ConceitoBorboleta } from './components/ConceitoBorboleta';
 import { Especialidades } from './components/Especialidades';
+import { ConceitoBorboleta } from './components/ConceitoBorboleta';
 import { MissaoVisaoValores } from './components/MissaoVisaoValores';
 import { Equipe } from './components/Equipe';
 import { PorQueEscolher } from './components/PorQueEscolher';
+import { LocalizacaoMapa } from './components/LocalizacaoMapa';
 import { CtaFinal } from './components/CtaFinal';
 import { Footer } from './components/Footer';
 import { FloatingWhatsapp } from './components/FloatingWhatsapp';
@@ -22,32 +24,38 @@ export function App() {
         {/* 2. Hero Section */}
         <Hero />
 
-        {/* 3. Apresentação da Marca */}
-        <Apresentacao />
+        {/* 3. Lead Qualification (Para Quem é / Tratamentos Rápidos) */}
+        <LeadQualificacao />
 
-        {/* 4. Conceito da Borboleta / Nossa Essência */}
-        <ConceitoBorboleta />
+        {/* 4. Apresentação da Clínica */}
+        <Apresentacao />
 
         {/* 5. 9 Especialidades */}
         <Especialidades />
 
-        {/* 6. Missão, Visão e 8 Valores */}
+        {/* 6. Nossa Essência / Conceito da Borboleta */}
+        <ConceitoBorboleta />
+
+        {/* 7. Missão, Visão e 8 Valores */}
         <MissaoVisaoValores />
 
-        {/* 7. Equipe Profissional */}
+        {/* 8. Equipe Profissional */}
         <Equipe />
 
-        {/* 8. Por Que Escolher a De Angelis */}
+        {/* 9. Por Que Escolher a De Angelis */}
         <PorQueEscolher />
 
-        {/* 9. CTA Final & Contato */}
+        {/* 10. Localização & Mapa Interativo */}
+        <LocalizacaoMapa />
+
+        {/* 11. CTA Final & Contato */}
         <CtaFinal />
       </main>
 
-      {/* 10. Footer */}
+      {/* 12. Footer */}
       <Footer />
 
-      {/* 11. Floating WhatsApp Action Button */}
+      {/* 13. Floating WhatsApp Action Button */}
       <FloatingWhatsapp />
     </div>
   );

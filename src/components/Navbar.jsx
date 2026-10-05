@@ -16,11 +16,11 @@ export const Navbar = () => {
 
   const navLinks = [
     { name: 'Sobre', href: '#sobre' },
-    { name: 'Essência', href: '#essencia' },
+    { name: 'Tratamentos', href: '#para-quem' },
     { name: 'Especialidades', href: '#especialidades' },
-    { name: 'Missão & Valores', href: '#valores' },
     { name: 'Equipe', href: '#equipe' },
     { name: 'Diferenciais', href: '#diferenciais' },
+    { name: 'Onde Estamos', href: '#localizacao' },
     { name: 'Contato', href: '#contato' },
   ];
 

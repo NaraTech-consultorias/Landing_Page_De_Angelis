@@ -1,28 +1,28 @@
 import React from 'react';
-import { Clock, Shield, UserCheck, Layers, Sparkles } from 'lucide-react';
+import { Clock, Shield, UserCheck, Layers, Sparkles, MessageCircle } from 'lucide-react';
 import { getWhatsAppLink } from '../data/contactData';
 
 export const PorQueEscolher = () => {
   const differentials = [
     {
       icon: Clock,
-      title: "Atendimento Exclusivo com Hora Marcada",
-      description: "Sem salas de espera cheias ou atrasos. Cada horário é reservado integralmente para você, garantindo a atenção e o tempo necessários para o seu cuidado.",
+      title: "Hora Marcada & Sem Atrasos",
+      description: "Atendimento 100% exclusivo com horário reservado integralmente para você.",
     },
     {
       icon: Shield,
-      title: "Ambiente Acessível e Reservado",
-      description: "Uma estrutura planejada para oferecer acessibilidade, privacidade, silêncio e acolhimento em cada momento da sua sessão.",
+      title: "Espaço Acessível & Privativo",
+      description: "Consultório moderno, silencioso e projetado para seu total conforto e privacidade.",
     },
     {
       icon: UserCheck,
-      title: "Cuidado 100% Individualizado",
-      description: "Você não precisa se adaptar a um protocolo genérico. Nossos tratamentos são personalizados após escuta atenta da sua história e avaliação detalhada.",
+      title: "Tratamento 100% Personalizado",
+      description: "Planos terapêuticos adaptados às necessidades específicas do seu organismo.",
     },
     {
       icon: Layers,
-      title: "Abordagem Integrada e Multidisciplinar",
-      description: "Unimos técnicas da fisioterapia convencional, terapias manuais, reeducação postural e práticas integrativas para um olhar verdadeiramente amplo.",
+      title: "Abordagem Integrada",
+      description: "Fisioterapia clínica, terapias manuais e movimento em uma visão completa de saúde.",
     },
   ];
 
@@ -30,45 +30,45 @@ export const PorQueEscolher = () => {
     <section
       id="diferenciais"
       data-testid="diferenciais-section"
-      className="py-20 lg:py-28 bg-white relative overflow-hidden"
+      className="py-16 lg:py-20 bg-white relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-offwhite border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-4 shadow-sm">
             <Sparkles className="w-3.5 h-3.5" strokeWidth={1.5} />
-            <span>Um Atendimento Pensado Para Você</span>
+            <span>Diferenciais Exclusivos</span>
           </div>
 
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-4">
-            Exclusivo. Individualizado. Acolhedor.
+          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-3">
+            A Experiência De Angelis
           </h2>
 
-          <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-            Qualidade também está na forma como você é recebido. Por isso, trabalhamos com horários previamente agendados e atendimento exclusivo, proporcionando um ambiente tranquilo, reservado e dedicado integralmente ao paciente.
+          <p className="text-base text-brand-slate leading-relaxed">
+            Excelência técnica, pontualidade e o respeito que você merece.
           </p>
         </div>
 
         {/* 4 Differentials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {differentials.map((item, idx) => {
             const Icon = item.icon;
             return (
               <div
                 key={idx}
-                className="p-8 sm:p-10 rounded-3xl bg-brand-offwhite border border-brand-sand/40 shadow-sm hover:shadow-brand-card hover:border-brand-royal/40 transition-all duration-300 flex flex-col justify-between"
+                className="p-6 rounded-2xl bg-brand-offwhite/80 border border-brand-sand/40 shadow-sm hover:shadow-brand-card hover:border-brand-royal/40 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-14 h-14 rounded-2xl bg-white text-brand-royal flex items-center justify-center shadow-sm mb-6 border border-brand-sand/30">
-                    <Icon className="w-7 h-7" strokeWidth={1.5} />
+                  <div className="w-12 h-12 rounded-xl bg-white text-brand-royal flex items-center justify-center shadow-sm mb-4 border border-brand-sand/30">
+                    <Icon className="w-6 h-6" strokeWidth={1.5} />
                   </div>
 
-                  <h3 className="font-heading text-xl sm:text-2xl font-semibold uppercase tracking-wider text-brand-navy mb-3">
+                  <h3 className="font-heading text-lg font-semibold uppercase tracking-wider text-brand-navy mb-2">
                     {item.title}
                   </h3>
 
-                  <p className="text-sm sm:text-base text-brand-slate leading-relaxed">
+                  <p className="text-xs sm:text-sm text-brand-slate leading-relaxed">
                     {item.description}
                   </p>
                 </div>
@@ -77,28 +77,25 @@ export const PorQueEscolher = () => {
           })}
         </div>
 
-        {/* Emotional Highlight Box */}
-        <div className="rounded-3xl bg-brand-offwhite p-8 sm:p-12 border border-brand-sand/40 text-center max-w-4xl mx-auto relative overflow-hidden">
-          <div className="relative z-10 space-y-4">
-            <h3 className="font-accent italic text-2xl sm:text-3xl text-brand-navy">
-              "Você não precisa se adaptar a um tratamento genérico. <br className="hidden sm:inline" />
-              O cuidado deve se adaptar a você."
-            </h3>
-            <p className="text-sm text-brand-slate max-w-2xl mx-auto">
-              Nossa estrutura foi pensada para oferecer acessibilidade, conforto e acolhimento, tornando o momento do cuidado também um momento de bem-estar.
-            </p>
-            <div className="pt-2">
-              <a
-                href={getWhatsAppLink()}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid="differentials-whatsapp-cta"
-                className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-brand-royal text-white text-sm sm:text-base font-semibold tracking-wider uppercase hover:bg-brand-royal-dark transition-all duration-300 shadow-brand-royal hover:shadow-xl hover:-translate-y-0.5"
-              >
-                <span>Agendar Minha Avaliação</span>
-                <span>→</span>
-              </a>
-            </div>
+        {/* Compact Lead Action Box */}
+        <div className="rounded-3xl bg-brand-offwhite p-8 sm:p-10 border border-brand-sand/40 text-center max-w-3xl mx-auto">
+          <h3 className="font-accent italic text-xl sm:text-2xl text-brand-navy mb-2">
+            "O cuidado deve se adaptar a você, nunca o contrário."
+          </h3>
+          <p className="text-xs sm:text-sm text-brand-slate max-w-xl mx-auto mb-6">
+            Agende sua avaliação e descubra como uma abordagem integrada pode transformar a sua qualidade de vida.
+          </p>
+          <div>
+            <a
+              href={getWhatsAppLink("Olá! Gostaria de agendar uma avaliação na De Angelis Fisioterapia.")}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="differentials-whatsapp-cta"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-brand-royal text-white text-xs sm:text-sm font-semibold tracking-wider uppercase hover:bg-brand-royal-dark transition-all shadow-brand-royal hover:shadow-lg hover:-translate-y-0.5"
+            >
+              <MessageCircle className="w-4 h-4" strokeWidth={1.5} />
+              <span>Agendar Minha Avaliação</span>
+            </a>
           </div>
         </div>
 

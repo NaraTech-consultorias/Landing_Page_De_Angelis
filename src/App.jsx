@@ -4,7 +4,6 @@ import { Hero } from './components/Hero';
 import { LeadQualificacao } from './components/LeadQualificacao';
 import { Apresentacao } from './components/Apresentacao';
 import { Especialidades } from './components/Especialidades';
-import { ConceitoBorboleta } from './components/ConceitoBorboleta';
 import { MissaoVisaoValores } from './components/MissaoVisaoValores';
 import { Equipe } from './components/Equipe';
 import { PorQueEscolher } from './components/PorQueEscolher';
@@ -24,7 +23,7 @@ export function App() {
         {/* 2. Hero Section */}
         <Hero />
 
-        {/* 3. Lead Qualification (Para Quem é / Tratamentos Rápidos) */}
+        {/* 3. Lead Qualification (Para Quem é / Queixas Rápidas) */}
         <LeadQualificacao />
 
         {/* 4. Apresentação da Clínica */}
@@ -33,29 +32,26 @@ export function App() {
         {/* 5. 9 Especialidades */}
         <Especialidades />
 
-        {/* 6. Nossa Essência / Conceito da Borboleta */}
-        <ConceitoBorboleta />
-
-        {/* 7. Missão, Visão e 8 Valores */}
+        {/* 6. Missão, Visão e 8 Valores */}
         <MissaoVisaoValores />
 
-        {/* 8. Equipe Profissional */}
+        {/* 7. Equipe Profissional */}
         <Equipe />
 
-        {/* 9. Por Que Escolher a De Angelis */}
+        {/* 8. Por Que Escolher a De Angelis */}
         <PorQueEscolher />
 
-        {/* 10. Localização & Mapa Interativo */}
+        {/* 9. Localização & Mapa Interativo */}
         <LocalizacaoMapa />
 
-        {/* 11. CTA Final & Contato */}
+        {/* 10. CTA Final & Contato */}
         <CtaFinal />
       </main>
 
-      {/* 12. Footer */}
+      {/* 11. Footer */}
       <Footer />
 
-      {/* 13. Floating WhatsApp Action Button */}
+      {/* 12. Floating WhatsApp Action Button */}
       <FloatingWhatsapp />
     </div>
   );

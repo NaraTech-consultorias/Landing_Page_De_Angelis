@@ -25,17 +25,17 @@ export const Hero = () => {
           
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/80 border border-brand-sand/40 text-brand-royal text-xs sm:text-sm font-medium tracking-wide shadow-sm">
             <Sparkles className="w-3.5 h-3.5 text-brand-royal" strokeWidth={1.5} />
-            <span>Fisioterapia Integrada & Cuidado Individualizado</span>
+            <span>Clínica de Fisioterapia & Terapias Integrativas</span>
           </div>
         </div>
 
-        {/* Main Official Slogan Headline */}
+        {/* Main Official Slogan Headline - Foco Claro em Clínica de Fisioterapia */}
         <h1
           data-testid="hero-headline"
           className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-6"
         >
-          Seu corpo em equilíbrio. <br />
-          <span className="text-brand-royal">Você em movimento.</span>
+          Clínica de Fisioterapia <br />
+          <span className="text-brand-royal">Cuidado Individualizado & Exclusivo</span>
         </h1>
 
         {/* Institutional Subtitle */}
@@ -43,7 +43,7 @@ export const Hero = () => {
           data-testid="hero-subtitle"
           className="text-base sm:text-lg md:text-xl text-brand-slate max-w-2xl mx-auto leading-relaxed font-normal mb-10"
         >
-          Cuidado individualizado, integrando fisioterapia, terapias complementares e movimento em um ambiente acolhedor, reservado e exclusivo.
+          Tratamentos especializados em fisioterapia clínica, reabilitação postural, saúde pélvica e terapias integrativas com atendimento exclusivo com hora marcada.
         </p>
 
         {/* Primary and Secondary CTA Buttons */}

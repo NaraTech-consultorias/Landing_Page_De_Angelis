@@ -2,11 +2,11 @@ import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { LeadQualificacao } from './components/LeadQualificacao';
-import { Apresentacao } from './components/Apresentacao';
 import { Especialidades } from './components/Especialidades';
-import { MissaoVisaoValores } from './components/MissaoVisaoValores';
 import { Equipe } from './components/Equipe';
 import { PorQueEscolher } from './components/PorQueEscolher';
+import { Apresentacao } from './components/Apresentacao';
+import { MissaoVisaoValores } from './components/MissaoVisaoValores';
 import { LocalizacaoMapa } from './components/LocalizacaoMapa';
 import { CtaFinal } from './components/CtaFinal';
 import { Footer } from './components/Footer';
@@ -26,20 +26,20 @@ export function App() {
         {/* 3. Lead Qualification (Para Quem é / Queixas Rápidas) */}
         <LeadQualificacao />
 
-        {/* 4. Apresentação da Clínica */}
-        <Apresentacao />
-
-        {/* 5. 9 Especialidades */}
+        {/* 4. 9 Terapias & Especialidades (PRIORIDADE TOTAL NO TOPO) */}
         <Especialidades />
 
-        {/* 6. Missão, Visão e 8 Valores */}
-        <MissaoVisaoValores />
-
-        {/* 7. Equipe Profissional */}
+        {/* 5. Corpo Clínico / Equipe */}
         <Equipe />
 
-        {/* 8. Por Que Escolher a De Angelis */}
+        {/* 6. Por Que Escolher a De Angelis (Diferenciais) */}
         <PorQueEscolher />
+
+        {/* 7. Apresentação da Clínica (Sobre Nós / Avaliação) */}
+        <Apresentacao />
+
+        {/* 8. Missão, Visão e 8 Valores */}
+        <MissaoVisaoValores />
 
         {/* 9. Localização & Mapa Interativo */}
         <LocalizacaoMapa />

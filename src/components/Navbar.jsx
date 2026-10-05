@@ -15,11 +15,11 @@ export const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Sobre', href: '#sobre' },
     { name: 'Tratamentos', href: '#para-quem' },
     { name: 'Especialidades', href: '#especialidades' },
     { name: 'Equipe', href: '#equipe' },
     { name: 'Diferenciais', href: '#diferenciais' },
+    { name: 'Sobre Nós', href: '#sobre' },
     { name: 'Onde Estamos', href: '#localizacao' },
     { name: 'Contato', href: '#contato' },
   ];

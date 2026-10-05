@@ -109,7 +109,7 @@ export const LocalizacaoMapa = () => {
           <div className="lg:col-span-7 rounded-3xl overflow-hidden border border-brand-sand/40 shadow-sm bg-white min-h-[360px] lg:min-h-full relative">
             <iframe
               title="Mapa de Localização De Angelis Fisioterapia"
-              src="https://maps.google.com/maps?q=-22.9068467,-43.1728965&hl=pt-BR&z=15&output=embed"
+              src={`https://maps.google.com/maps?q=${encodeURIComponent(CONTACT_INFO.addressQuery || 'De Angelis Fisioterapia')}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
               className="w-full h-full min-h-[360px] border-0"
               loading="lazy"
               allowFullScreen=""

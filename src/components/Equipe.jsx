@@ -8,22 +8,22 @@ export const Equipe = () => {
     <section
       id="equipe"
       data-testid="equipe-section"
-      className="py-20 lg:py-28 bg-brand-offwhite relative overflow-hidden"
+      className="py-12 sm:py-20 bg-brand-offwhite relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-4 shadow-sm">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-3 sm:mb-4 shadow-sm">
             <Users className="w-3.5 h-3.5" strokeWidth={1.5} />
             <span>Corpo Clínico</span>
           </div>
 
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-4">
+          <h2 className="font-heading text-2xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-3 sm:mb-4">
             Profissionais Especializados
           </h2>
 
-          <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg text-brand-slate leading-relaxed">
             Formação técnica de excelência, constante atualização e acolhimento em cada etapa do seu tratamento.
           </p>
         </div>

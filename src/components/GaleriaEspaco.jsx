@@ -48,33 +48,34 @@ export const GaleriaEspaco = () => {
     <section
       id="espaco"
       data-testid="galeria-espaco-section"
-      className="py-20 bg-white relative overflow-hidden"
+      className="py-12 sm:py-20 bg-white relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-offwhite border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-4 shadow-sm">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-offwhite border border-brand-sand/40 text-brand-royal text-xs font-semibold uppercase tracking-extra-wide mb-3 sm:mb-4 shadow-sm">
             <Camera className="w-3.5 h-3.5" strokeWidth={1.5} />
-            <span>Nossa Estrutura</span>
+            <span>Estrutura & Conforto</span>
           </div>
 
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-4">
-            Conheça o Espaço De Angelis
+          <h2 className="font-heading text-2xl sm:text-4xl lg:text-5xl font-semibold tracking-wide uppercase text-brand-navy leading-tight mb-3 sm:mb-4">
+            Nosso Espaço Clínico <br />
+            <span className="text-brand-royal text-xl sm:text-3xl md:text-4xl font-normal block mt-1">Ambiente Reservado & Acolhedor</span>
           </h2>
 
-          <p className="text-base sm:text-lg text-brand-slate leading-relaxed">
-            Um ambiente pensado em cada detalhe para oferecer conforto, privacidade, higiene rigorosa e tranquilidade durante o seu tratamento.
+          <p className="text-sm sm:text-base md:text-lg text-brand-slate leading-relaxed">
+            Planejado em cada detalhe para proporcionar privacidade, segurança, acessibilidade e bem-estar durante cada sessão de tratamento.
           </p>
         </div>
 
         {/* 6 Photos Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-7 mb-10 sm:mb-12">
           {photos.map((item, idx) => (
             <div
               key={idx}
               onClick={() => setSelectedImage(item)}
-              className="group relative rounded-3xl overflow-hidden bg-brand-offwhite border border-brand-sand/30 shadow-sm hover:shadow-brand-card transition-all duration-300 cursor-pointer h-72 sm:h-80"
+              className="group relative rounded-2xl sm:rounded-3xl overflow-hidden bg-brand-offwhite border border-brand-sand/30 shadow-sm hover:shadow-brand-card transition-all duration-300 cursor-pointer h-64 sm:h-72"
             >
               <img
                 src={item.src}
@@ -84,13 +85,13 @@ export const GaleriaEspaco = () => {
               />
 
               {/* Gradient Overlay & Badge */}
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/85 via-brand-navy/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
 
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <span className="inline-block text-[10px] font-semibold uppercase tracking-wider text-brand-sky bg-brand-navy/60 px-2.5 py-1 rounded-full backdrop-blur-sm mb-2 border border-brand-sky/20">
+              <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 text-white">
+                <span className="inline-block text-[10px] font-semibold uppercase tracking-wider text-brand-sky bg-brand-navy/70 px-2.5 py-1 rounded-full backdrop-blur-sm mb-2 border border-brand-sky/20">
                   {item.category}
                 </span>
-                <h3 className="font-heading text-lg sm:text-xl font-semibold uppercase tracking-wider text-white">
+                <h3 className="font-heading text-base sm:text-lg font-semibold uppercase tracking-wider text-white">
                   {item.title}
                 </h3>
               </div>
@@ -99,9 +100,9 @@ export const GaleriaEspaco = () => {
         </div>
 
         {/* Bottom Booking Action */}
-        <div className="p-8 rounded-3xl bg-brand-offwhite border border-brand-sand/40 max-w-4xl mx-auto text-center flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm">
+        <div className="p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-brand-offwhite border border-brand-sand/40 max-w-4xl mx-auto text-center flex flex-col sm:flex-row items-center justify-between gap-5 sm:gap-6 shadow-sm">
           <div className="text-left">
-            <h4 className="font-heading text-xl sm:text-2xl uppercase tracking-wider text-brand-navy font-semibold">
+            <h4 className="font-heading text-lg sm:text-2xl uppercase tracking-wider text-brand-navy font-semibold">
               Venha conhecer nosso espaço de perto
             </h4>
             <p className="text-xs sm:text-sm text-brand-slate mt-1">

@@ -33,7 +33,7 @@ export const Especialidades = () => {
     <section
       id="especialidades"
       data-testid="especialidades-section"
-      className="py-20 lg:py-28 bg-brand-offwhite relative overflow-hidden"
+      className="pt-6 pb-14 sm:pt-10 sm:pb-24 bg-brand-offwhite relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

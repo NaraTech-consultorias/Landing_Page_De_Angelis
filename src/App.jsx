@@ -31,11 +31,11 @@ export function App() {
         {/* 4. 9 Terapias & Especialidades (PRIORIDADE TOTAL NO TOPO) */}
         <Especialidades />
 
-        {/* 5. Galeria de Fotos Reais do Espaço Clínico */}
-        <GaleriaEspaco />
-
-        {/* 6. Corpo Clínico / Equipe Especializada */}
+        {/* 5. Corpo Clínico / Equipe Especializada */}
         <Equipe />
+
+        {/* 6. Galeria de Fotos Reais do Espaço Clínico */}
+        <GaleriaEspaco />
 
         {/* 7. Diferenciais da Clínica */}
         <PorQueEscolher />

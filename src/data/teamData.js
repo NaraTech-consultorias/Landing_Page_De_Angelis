@@ -21,8 +21,8 @@ export const TEAM_MEMBERS = [
     name: "Dra. Hilda Maria Marques Pinheiro",
     role: "Fisioterapeuta Especialista",
     crefito: "107891-F",
-    specialties: "Fisioterapia Pélvica, Saúde da Mulher & Fertilidade",
-    bio: "Dedicada ao cuidado integral e humanizado, com foco na saúde pélvica, gestação, fertilidade e fortalecimento funcional.",
+    specialties: "Acupuntura, Auriculoterapia, Florais de Bach, Saúde da Mulher, Fertilidade & Fisioterapia Pélvica",
+    bio: "Dedicada ao cuidado integral e humanizado, unindo saúde pélvica, fertilidade, gestação e terapias integrativas para o equilíbrio e bem-estar de cada paciente.",
     avatarPlaceholder: "H"
   },
   {
@@ -31,8 +31,8 @@ export const TEAM_MEMBERS = [
     name: "Dr. Léo Wilson",
     role: "Fisioterapeuta & Osteopata",
     crefito: "[Aguardando envio do cliente]",
-    specialties: "RPG, Osteopatia, Liberação Miofascial & Biomecânica",
-    bio: "Atuação voltada à reabilitação postural, alívio de dores crônicas e diagnóstico biomecânico global através da osteopatia e RPG.",
+    specialties: "Osteopatia Clínica & Tratamento da Dor",
+    bio: "Especialista em Osteopatia, focado no diagnóstico manual e tratamento das disfunções articulares e alívio de dores na coluna e no corpo.",
     avatarPlaceholder: "L"
   }
 ];

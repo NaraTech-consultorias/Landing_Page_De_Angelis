@@ -8,14 +8,14 @@ export const CONTACT_INFO = {
   slogan: "Cuidar do corpo. Equilibrar a vida. Transformar caminhos.",
   closingPhrase: "Todo processo de transformação começa com um cuidado.",
   
-  // WhatsApp oficial (placeholder identificado)
-  whatsappNumber: "5500000000000", // [PENDÊNCIA: Inserir número oficial do WhatsApp]
-  whatsappDisplay: "(00) 00000-0000", // [PENDÊNCIA: Inserir telefone de exibição]
+  // WhatsApp oficial
+  whatsappNumber: "5521986248090",
+  whatsappDisplay: "(21) 98624-8090",
   defaultMessage: "Olá! Gostaria de agendar uma avaliação na De Angelis Fisioterapia.",
   
   // Redes Sociais e Endereço Oficial
-  instagram: "@deangelisfisioterapia",
-  instagramUrl: "https://instagram.com/",
+  instagram: "@deangelisfisio",
+  instagramUrl: "https://www.instagram.com/deangelisfisio?dlrf=OGplMXY2Y3dwMXEy",
   address: "R. Cel. Henrique da Fonseca, 79 - A loja",
   neighborhood: "Centro",
   cityState: "Centro, São João de Meriti - RJ • CEP 25520-620",

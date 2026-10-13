@@ -93,11 +93,25 @@ export const CtaFinal = () => {
             </div>
             <p className="text-xs sm:text-sm text-brand-offwhite/80 leading-relaxed flex items-center gap-2">
               <span>WhatsApp:</span>
-              <strong className="text-white font-medium">{CONTACT_INFO.whatsappDisplay}</strong>
+              <a
+                href={getWhatsAppLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white font-medium hover:text-brand-sky transition-colors underline decoration-brand-sky/40 underline-offset-2"
+              >
+                {CONTACT_INFO.whatsappDisplay}
+              </a>
             </p>
-            <p className="text-xs text-brand-sky mt-1 font-medium flex items-center gap-1.5">
+            <p className="text-xs text-brand-sky mt-2 font-medium flex items-center gap-1.5">
               <Instagram className="w-3.5 h-3.5" strokeWidth={1.5} />
-              <span>{CONTACT_INFO.instagram}</span>
+              <a
+                href={CONTACT_INFO.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline transition-colors"
+              >
+                {CONTACT_INFO.instagram}
+              </a>
             </p>
           </div>
 
